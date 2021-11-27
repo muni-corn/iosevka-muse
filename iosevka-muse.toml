@@ -1,0 +1,51 @@
+[buildPlans.iosevka-muse]
+family = "Iosevka Muse"
+# spacing = "fixed"
+serifs = "sans"
+no-cv-ss = true
+
+[buildPlans.iosevka-muse.variants]
+inherits = "ss20"
+
+[buildPlans.iosevka-muse.variants.design]
+capital-d = "more-rounded-serifless"
+capital-g = "toothless-corner-serifless-hooked"
+capital-j = "serifless"
+capital-q = "crossing-curly-tailed"
+capital-z = "curly-serifless-with-horizontal-crossbar"
+a = "double-storey-toothless-corner"
+b = "toothless-corner"
+d = "toothless-corner-serifless"
+f = "flat-hook"
+g = "double-storey-open"
+i = "flat-tailed"
+j = "flat-hook-serifless"
+l = "flat-tailed"
+m = "earless-corner-double-arch"
+n = "earless-corner-straight"
+p = "earless-corner"
+q = "earless-corner-tailed"
+r = "earless-corner"
+t = "flat-hook"
+u = "toothless-corner"
+y = "cursive-flat-hook"
+long-s = "flat-hook-tailed"
+lower-iota = "flat-tailed"
+cyrl-capital-ka = "curly-serifless"
+cyrl-ka = "curly-serifless"
+cyrl-capital-ya = "curly"
+cyrl-ya = "curly"
+seven = "curly-serifless"
+asterisk = "penta-low"
+brace = "straight"
+ampersand = "closed"
+dollar = "open"
+cent = "open"
+percent = "rings-continuous-slash"
+bar = "force-upright"
+
+[buildPlans.iosevka-muse.variants.italic]
+k = "curly-serifless"
+
+[buildPlans.iosevka-muse.ligations]
+inherits = "dlig"
