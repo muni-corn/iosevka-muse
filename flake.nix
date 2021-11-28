@@ -26,7 +26,7 @@
                 pname = "iosevka-muse-nerd-font";
                 version = plainPackage.version;
 
-                src = ./.;
+                src = builtins.path { path = ./.; name = "iosevka-muse"; };
 
                 buildInputs = [ pkgs.nerd-font-patcher ];
 
