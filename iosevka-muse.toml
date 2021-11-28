@@ -46,6 +46,3 @@ bar = "force-upright"
 
 [buildPlans.iosevka-muse.variants.italic]
 k = "curly-serifless"
-
-[buildPlans.iosevka-muse.ligations]
-inherits = "dlig"
