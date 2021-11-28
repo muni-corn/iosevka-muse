@@ -1,6 +1,6 @@
 [buildPlans.iosevka-muse]
 family = "Iosevka Muse"
-# spacing = "fixed"
+spacing = "fixed"
 serifs = "sans"
 no-cv-ss = true
 
