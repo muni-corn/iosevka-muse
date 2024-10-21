@@ -1,48 +1,66 @@
-[buildPlans.iosevka-muse]
+[buildPlans.IosevkaMuse]
 family = "Iosevka Muse"
-spacing = "fixed"
+spacing = "normal"
 serifs = "sans"
-no-cv-ss = true
+noCvSs = false
+exportGlyphNames = true
 
-[buildPlans.iosevka-muse.variants]
-inherits = "ss20"
+  [buildPlans.IosevkaMuse.variants]
+  inherits = "ss20"
 
-[buildPlans.iosevka-muse.variants.design]
-capital-d = "more-rounded-serifless"
-capital-g = "toothless-corner-serifless-hooked"
-capital-j = "serifless"
-capital-q = "crossing-curly-tailed"
-capital-z = "curly-serifless-with-horizontal-crossbar"
-a = "double-storey-toothless-corner"
-b = "toothless-corner"
-d = "toothless-corner-serifless"
-f = "flat-hook"
-g = "double-storey-open"
-i = "serifed-flat-tailed"
-j = "flat-hook-serifed"
-l = "flat-tailed"
-m = "earless-corner-double-arch"
-n = "earless-corner-straight"
-p = "earless-corner"
-q = "earless-corner-tailed"
-r = "earless-corner"
-t = "flat-hook"
-u = "toothless-corner"
-y = "cursive-flat-hook"
-long-s = "flat-hook-tailed"
-lower-iota = "flat-tailed"
-cyrl-capital-ka = "curly-serifless"
-cyrl-ka = "curly-serifless"
-cyrl-capital-ya = "curly"
-cyrl-ya = "curly"
-seven = "curly-serifless"
-asterisk = "penta-low"
-brace = "straight"
-ampersand = "closed"
-dollar = "open"
-cent = "open"
-percent = "rings-continuous-slash"
-bar = "force-upright"
+    [buildPlans.IosevkaMuse.variants.design]
+    seven = "bend-serifless-crossbar"
+    zero = "dotted"
+    capital-g = "toothless-corner-serifless-hooked"
+    capital-j = "serifless"
+    capital-q = "crossing-curly-tailed"
+    capital-z = "curly-serifless-with-crossbar"
+    a = "double-storey-toothless-corner"
+    b = "toothless-corner-serifless"
+    d = "toothless-rounded-serifless"
+    # f = "flat-hook"
+    g = "single-storey-earless-corner"
+    i = "tailed"
+    j = "serifless"
+    k = "curly-serifless"
+    l = "tailed"
+    m = "earless-corner-double-arch-serifless"
+    n = "earless-corner-straight-serifless"
+    p = "earless-corner-serifless"
+    q = "earless-corner-diagonal-tailed-serifless"
+    r = "earless-corner-serifless"
+    t = "bent-hook-asymmetric"
+    u = "toothless-corner-serifless"
+    y = "cursive-serifless"
+    z = "curly-serifless-with-crossbar"
+    lower-iota = "tailed"
+    lower-xi = "rounded"
+    cyrl-yeri = "round"
+    cyrl-yery = "round-tailed"
+    cyrl-capital-ya = "curly-serifless"
+    cyrl-ya = "curly-serifless"
+    asterisk = "penta-low"
+    brace = "straight"
+    guillemet = "straight"
+    at = "fourfold-solid-inner"
+    dollar = "open"
+    percent = "rings-continuous-slash"
+    micro-sign = "toothless-corner-serifless"
 
-[buildPlans.iosevka-muse.variants.italic]
-k = "curly-serifless"
+  [buildPlans.IosevkaMuse.ligations]
+  inherits = "dlig"
+
+[buildPlans.IosevkaMuse.widths.Normal]
+shape = 500
+menu = 5
+css = "normal"
+
+[buildPlans.IosevkaMuse.widths.Extended]
+shape = 600
+menu = 7
+css = "expanded"
+
+[buildPlans.IosevkaMuse.widths.Condensed]
+shape = 416
+menu = 3
+css = "condensed"
